@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,qBAAsB,CAClB,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,MAAM,CAI3B,mBAAoB,CAChB,OAAO,CAAE,IAAI,CASb,+BAAW,CACX,SAAS,CAAE,KAAK",
+"sources": ["../../sourse/scss/blocks/selected-work.scss"],
+"names": [],
+"file": "selected-work.css"
+}

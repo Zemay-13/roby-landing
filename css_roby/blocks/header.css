@@ -1,0 +1,57 @@
+.header {
+    padding: 40px 60px 100px 60px;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__data {}
+
+.data__geo {
+    margin-bottom: 27px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 20px;
+    color: #747474;
+}
+
+.data__email {
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.header__logo {
+    max-width: 410px;
+    max-height: 234px;
+    margin-top: 19px;
+    z-index: 1;
+}
+
+.header__logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.header__menu {}
+
+.header__menu__link {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.header__menu__link a {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000;
+}
+
+.header__menu__link li {
+    padding-right: 9px;
+}

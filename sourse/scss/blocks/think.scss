@@ -1,0 +1,67 @@
+.think {
+    padding-bottom: 65px;
+}
+.think__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.think_title {
+    padding-bottom: 114px;
+    font-size: 42px;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    .text-bold {
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 72px;
+        }
+}
+
+.think_cards {
+    display: flex;
+    .cards__card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 20px;
+        max-width: 460px;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        .card__text {
+            color: #000000;
+            text-align: center;
+            padding: 35px 49px 29px 49px;
+            font-size: 20px;
+            line-height: 26px;
+            text-align: center;
+        }
+        .card__img {
+            max-width: 80px;
+            max-height: 80px;
+            padding-bottom: 20px;
+        }
+        .card__title {
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 20px;
+            text-align: center;
+            text-transform: uppercase;
+            padding-bottom: 5px;
+        }
+        .card__subtitle {
+            padding-bottom: 31px;
+            font-size: 17px;
+            line-height: 22px;
+            text-align: center;
+            color: #747474;
+        }
+    }
+}
+
+
+.think__scroll {
+    padding-top: 19px;
+}
