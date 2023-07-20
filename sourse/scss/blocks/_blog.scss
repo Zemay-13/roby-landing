@@ -1,22 +1,26 @@
 .blog {
     padding-bottom: 129px;
 }
+
 .blog__header {
     display: flex;
     justify-content: space-between;
     padding-bottom: 95px;
+
     .header__title {
         font-size: 57px;
         line-height: 72px;
         letter-spacing: 1px;
         text-transform: uppercase;
+
         .text-bold {
             font-weight: 700;
             font-size: 60px;
             line-height: 72px;
 
         }
-}
+    }
+
     .header__subtitle {
         display: flex;
         justify-content: center;
@@ -30,25 +34,28 @@
         letter-spacing: 1px;
         text-transform: uppercase;
         color: #FFFFFF;
-        
+
         p {
             padding: 49px 35px;
             display: flex;
             align-items: center;
             text-align: center;
         }
-}
+    }
 }
 
 
 .blog__card {
     display: flex;
     justify-content: space-between;
+
     .card {
         max-width: 373px;
+
         .card__img {
             padding-bottom: 44px;
-} 
+        }
+
         .card__title {
             max-width: 113px;
             border: 1px solid #000000;
@@ -59,10 +66,12 @@
             letter-spacing: 1px;
             text-transform: uppercase;
             text-align: center;
-            p{
+
+            p {
                 padding: 7px 0;
             }
-}
+        }
+
         .card__subtitle {
             padding-top: 19px;
             font-weight: 700;
@@ -70,14 +79,13 @@
             line-height: 31px;
             text-transform: uppercase;
             padding-bottom: 30px;
-}
+        }
+
         .card__text {
             font-size: 17px;
             line-height: 22px;
             color: #8F8F8F;
-}
-    
-}
-}
+        }
 
-
+    }
+}
